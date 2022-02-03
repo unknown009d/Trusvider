@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Service Management | Dashboard</title>
+
+  <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+  <link href="bootstrap/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/version1.css">
+  <link rel="stylesheet" href="css/version2.css">
+
+</head>
+
+<body>
+
+  <header id="header" class="header fixed-top d-flex align-items-center header_d">
+
+    <i class="bi bi-list toggle-sidebar-btn d-block d-xl-none"></i>
+    <p class="d-block d-xl-none m-0 mx-2 fw-bold fs-6">Service Management</p>
+
+    <div class="search-bar">
+      <form class="search-form d-flex align-items-center" method="POST" action="#">
+        <input type="text" name="query" placeholder="Search your items here..." class="text-primary"
+          title="Enter search keyword" required>
+        <button type="submit" title="Search"><i class="bi bi-search"></i></button>
+      </form>
+    </div>
+    <nav class="header-nav ms-auto">
+      <ul class="d-flex align-items-center">
+
+        <li class="nav-item d-block d-xl-none">
+          <a class="nav-link nav-icon search-bar-toggle " href="#">
+            <i class="bi bi-search"></i>
+          </a>
+        </li>
+
+        <li class="nav-item dropdown pe-3">
+
+          <a class="nav-link nav-profile d-flex align-items-center p-0" href="#" data-bs-toggle="dropdown">
+            <span class="dropdown-toggle ps-2">Mr. Someone there</span>
+          </a>
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+            <li class="dropdown-header">
+              <h6>Mr. Someone there</h6>
+              <span>No job yet</span>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <i class="bi bi-person"></i>
+                <span>My Profile</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <i class="bi bi-gear"></i>
+                <span>Account Settings</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <i class="bi bi-question-circle"></i>
+                <span>Need Help?</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center text-danger" href="c_login.html">
+                <i class="bi bi-box-arrow-right"></i>
+                <span>Sign Out</span>
+              </a>
+            </li>
+
+          </ul>
+        </li>
+
+      </ul>
+    </nav>
+
+  </header>
+
+  <aside id="sidebar" class="sidebar side_d">
+    <i class="bi bi-tools bgIcon"></i>
+    <div class="d-flex align-items-center justify-content-between">
+      <a href="dashboard.html" class="logo d-flex align-items-center asideLogoCont">
+        <i class="bi bi-tools me-3"></i>
+        <p class="d-none d-lg-block m-0 fw-bold fs-5">Service Management</p>
+      </a>
+    </div>
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+
+      <li class="nav-item active">
+        <a class="nav-link " href="#">
+          <i class="bi bi-grid"></i>
+          <span>Dashboard</span>
+        </a>
+      </li>
+
+      <li class="nav-item ">
+        <a class="nav-link " href="#">
+          <i class="bi bi-journal-plus"></i>
+          <span>Add Services</span>
+        </a>
+      </li>
+
+      <li class="nav-item ">
+        <a class="nav-link " href="#">
+          <i class="bi bi-journal-x"></i>
+          <span>Remove Services</span>
+        </a>
+      </li>
+
+      <li class="nav-item ">
+        <a class="nav-link " href="#">
+          <i class="bi bi-journal-bookmark"></i>
+          <span>Service List</span>
+        </a>
+      </li>
+    </ul>
+
+  </aside>
+
+  <main id="main" class="main">
+    <div class="container">
+        <section class="section error-404 min-vh-100 d-flex flex-column align-items-center justify-content-center">
+          <h1>404</h1>
+          <h2>The page you are looking for doesn't exist.</h2>
+          <img src="assets/img/not-found.svg" class="img-fluid py-5" alt="Page Not Found">
+        </section>
+  
+      </div>
+  </main>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="bootstrap/js/nmain.js"></script>
+</body>
+
+</html>
