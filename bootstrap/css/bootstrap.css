@@ -12227,3 +12227,28 @@ fieldset:disabled .btn {
 .tml {
   padding-left: 0.3rem;
 }
+
+.hicon {
+  font-size: 2rem;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.hicon img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 4pt;
+}
+
+.hicon i {  
+  padding: 1rem 1.5rem;
+  background-color: #00000010;
+  border-radius: 50pt;
+}
