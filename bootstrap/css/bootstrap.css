@@ -12237,6 +12237,8 @@ fieldset:disabled .btn {
   justify-content: center;
   align-items: center;
   margin-bottom: 1rem;
+  border-radius: 4pt;
+  overflow: hidden;
 }
 
 .hicon img {
